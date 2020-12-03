@@ -1,4 +1,5 @@
 # ngconf-googlemaps
+[![Known Vulnerabilities](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps/badge.svg)](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
