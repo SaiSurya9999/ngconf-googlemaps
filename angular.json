@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngconf-googlemap": {
+      "projectType": "library",
+      "root": "projects/ngconf-googlemap",
+      "sourceRoot": "projects/ngconf-googlemap/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngconf-googlemap/tsconfig.lib.json",
+            "project": "projects/ngconf-googlemap/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngconf-googlemap/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngconf-googlemap/src/test.ts",
+            "tsConfig": "projects/ngconf-googlemap/tsconfig.spec.json",
+            "karmaConfig": "projects/ngconf-googlemap/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngconf-googlemap/tsconfig.lib.json",
+              "projects/ngconf-googlemap/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngconf-googlemap"
 }
