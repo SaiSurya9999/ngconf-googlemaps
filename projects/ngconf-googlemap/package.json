@@ -1,6 +1,29 @@
 {
   "name": "ngconf-googlemap",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sai Surya Teja Talasila",
+    "email": "tsaisurya@gmail.com"
+  },
+  "description": "Angular Library to easily integrate Google Maps API.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaiSurya9999/Ngconf-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaiSurya9999/Ngconf-Search/issues",
+    "email": "tsaisurya@gmail.com"
+  },
+  "homepage": "https://github.com/SaiSurya9999/Ngconf-Search",
+  "license": "MIT",
+  "keywords": [
+    "ngconf-googlemaps",
+    "google maps",
+    "google",
+    "map",
+    "ngx-googlemaps",
+    "ng2googlemaps"
+  ],
   "peerDependencies": {
     "@angular/common": "^11.0.3",
     "@angular/core": "^11.0.3"
