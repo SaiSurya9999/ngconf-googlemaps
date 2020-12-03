@@ -1,5 +1,5 @@
 # ngconf-googlemaps
-[![Known Vulnerabilities](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps/badge.svg)](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Known Vulnerabilities](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps/badge.svg)](https://snyk.io/test/github/SaiSurya9999/ngconf-googlemaps)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Step - 1
 
-> npm i ngconf-googlemaps --save  
+> npm i ngconf-googlemap --save  
 [NPM Package Link](https://www.npmjs.com/package/ngconf-googlemaps "ngconf-search")  
 
 import NgconfGooglemapModule in **app.module.ts** file.  
